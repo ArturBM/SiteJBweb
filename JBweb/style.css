@@ -1,0 +1,97 @@
+/*ESTILO GERAL*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(to left , rgb(6, 6, 73), rgb(56, 9, 56), black);
+    background-size: 500% 100%;
+    animation: degrade-anim 5s infinite alternate;
+    height: 100vh;  
+}
+
+@keyframes degrade-anim {
+   0%{
+      background-position-x: 0% ;
+   }
+   100%{
+      background-position-x: 100%;
+   }   
+}
+
+.interface{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+.flex{
+   display: flex; 
+}
+
+.btn-contato button{
+    padding: 10px 40px;
+    font-size: 18px;
+    font-weight: 600;
+    background-image: linear-gradient(to left , rgb(6, 6, 73), rgb(56, 9, 56), black);
+    background-size: 500% 100%;
+    animation: degrade-anim 5s infinite alternate;
+    border: 0;
+    border-radius: 30px;
+    color: white;
+    cursor: pointer;
+    transition: 2s;
+}
+
+h2.titulo{
+    color: white;
+    font-size: 38px;
+    text-align: center;
+
+}
+
+h2.titulo span{
+    color: blueviolet;
+}
+
+/* ESTILO DO CABEÇALHO */
+header{
+    padding: 40px 4%;
+}
+
+header > .interface{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header a{
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    transition: .2s;
+}
+
+header a:hover{
+    color: blueviolet;
+    transform: scale(1.05);
+}
+header nav ul{
+    list-style: none;
+}
+
+header nav ul li{
+   display: inline-block;
+   padding: 0 40px;
+}
+.btn-contato button:hover, form .btn-enviar input:hover{
+    box-shadow: 0px 0px 8px blueviolet;
+    transform: scale(1.05);
+}
+
+img {
+    width: 80%;
+}
