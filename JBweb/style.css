@@ -9,8 +9,9 @@
 body {
     color: white;
     font-family: Arial, Helvetica, sans-serif;
-    background-image: linear-gradient(to left , rgb(6, 6, 73), rgb(56, 9, 56), black);
-    background-size: 500% 100%;
+    background-image: url("../JBweb/img/background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
     animation: degrade-anim 5s infinite alternate;
     height: 100vh;  
 }
