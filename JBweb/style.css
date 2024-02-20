@@ -9,20 +9,10 @@
 body {
     color: white;
     font-family: Arial, Helvetica, sans-serif;
-    background-image: url("../JBweb/img/background.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-image: linear-gradient(to left , rgb(6, 6, 73), rgb(56, 9, 56), black);
+    background-size: 500% 100%;
     animation: degrade-anim 5s infinite alternate;
     height: 100vh;  
-}
-
-@keyframes degrade-anim {
-   0%{
-      background-position-x: 0% ;
-   }
-   100%{
-      background-position-x: 100%;
-   }   
 }
 
 .interface{
@@ -37,7 +27,7 @@ body {
     padding: 10px 20px;
     font-size: 30px;
     font-weight: 600;
-    background-image: linear-gradient(to left , rgb(6, 6, 73), rgb(56, 9, 56), black);
+    background-color: aqua;
     background-size: 500% 100%;
     animation: degrade-anim 5s infinite alternate;
     border: 0;
@@ -45,6 +35,7 @@ body {
     color: white;
     cursor: pointer;
     transition: 2s;
+    
 }
 
 h2.titulo{
@@ -90,6 +81,10 @@ header nav ul li{
    padding: 0 40px;
 }
 .btn-contato button:hover, form .btn-enviar input:hover{
-    box-shadow: 0px 0px 8px blueviolet;
+    box-shadow: 0px 0px 8px rgb(226, 43, 43);
     transform: scale(1.05);
+}
+
+.img{
+    
 }
