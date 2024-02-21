@@ -17,7 +17,7 @@ body {
 }
 
 .interface{
-    max-width: 1280px;
+    max-width: 1920px;
     margin: 0 auto;
 }
 .flex{
@@ -26,9 +26,9 @@ body {
 
 .btn-contato button{
     padding: 10px 20px;
-    font-size: 30px;
+    font-size: 22px;
     font-weight: 600;
-    background-color: aqua;
+    background-color: rgb(17, 201, 87);
     background-size: 500% 100%;
     animation: degrade-anim 5s infinite alternate;
     border: 0;
@@ -84,4 +84,9 @@ header nav ul li{
 .btn-contato button:hover, form .btn-enviar input:hover{
     box-shadow: 0px 0px 8px rgb(226, 43, 43);
     transform: scale(1.05);
+}
+
+.logo img{
+    width: 70%;
+   
 }
